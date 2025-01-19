@@ -1,0 +1,38 @@
+.card {
+  margin: 30px auto;
+  flex-basis: 32%;
+}
+
+.card-wrapper {
+  width: 100%;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.card-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  height: 50%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.list-wrapper {
+  padding-left: 18px;
+}
+
+.card-wrapper h1 {
+  margin: 10px 10px;
+}
+
+.card-wrapperul {
+  margin: 10px;
+}
+
+.card-wrapper ul li {
+  padding: 10px;
+  font-size: 12px;
+  list-style-type: square;
+}

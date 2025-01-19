@@ -1,0 +1,21 @@
+.projects {
+  overflow: hidden;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200%;
+  overflow-x: hidden;
+  padding-bottom: 70px;
+}
+
+.images img {
+  height: 800px;
+  flex-basis: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 20px auto;
+  text-align: center;
+}

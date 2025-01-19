@@ -1,0 +1,35 @@
+.values {
+  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.values-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission,
+.vision {
+  /* border: 1px solid #333; */
+  border: 1px solid #8080801a;
+  border-radius: 10px;
+  margin: 10px 10px;
+  flex-basis: 400px;
+  min-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.values-container h1 {
+  color: rgb(192, 66, 21);
+  border-bottom: 1px solid #8080801a;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.values-container p {
+  font-size: 14px;
+  padding: 10px;
+}
